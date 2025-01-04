@@ -122,13 +122,13 @@ header nav ul li a {
     margin-top: 10px;
 }
 
-/* Gallery Section */
-.gallery {
+/* Extended Gallery Section */
+.extended-gallery {
     background-color: #f9f9f9;
     padding: 50px 20px;
 }
 
-.gallery h2 {
+.extended-gallery h2 {
     text-align: center;
     font-size: 36px;
     margin-bottom: 30px;
@@ -145,6 +145,24 @@ header nav ul li a {
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
+}
+
+/* Adventure Section */
+.adventure {
+    background-color: white;
+    padding: 50px 20px;
+}
+
+.adventure h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.adventure .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 /* Footer */
