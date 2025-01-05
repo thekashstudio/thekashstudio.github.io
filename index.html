@@ -3,82 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Explore Kyrgyzstan</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Kyrgyzstan Tourism</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Explore Kyrgyzstan</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Destinations</a></li>
-                    <li><a href="#">Activities</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
+        <nav>
+            <div class="logo">
+                <a href="#">Kyrgyzstan</a>
+            </div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+        <div class="hero">
+          <div class="hero-image" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Ala-kul_lake_in_Terskey_Alatau_Kyrgyzstan.jpg/1920px-Ala-kul_lake_in_Terskey_Alatau_Kyrgyzstan.jpg');"></div>
+            <div class="hero-content">
+                <h1>Explore the Heart of Central Asia</h1>
+                <p>Discover breathtaking landscapes, nomadic culture, and unforgettable adventures.</p>
+                <a href="#destinations" class="btn">Explore Now</a>
+            </div>
         </div>
     </header>
 
-    <section class="hero">
-        <div class="hero-text">
-            <h2>Discover the Beauty of Kyrgyzstan</h2>
-            <p>Land of mountains, lakes, and rich cultural heritage.</p>
-            <a href="#" class="cta-button">Plan Your Trip</a>
+    <section id="about" class="section">
+        <h2>About Kyrgyzstan</h2>
+        <p>Kyrgyzstan, a country in Central Asia, is known for its rugged terrain, nomadic traditions, and stunning natural beauty. From the towering Tian Shan mountains to the pristine lakes and vast steppes, Kyrgyzstan offers a unique travel experience.</p>
+        <div class="about-images">
+            <div class="about-image" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Issyk-Kul_lake_Kyrgyzstan.jpg/1920px-Issyk-Kul_lake_Kyrgyzstan.jpg');"></div>
+            <div class="about-image" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Song-Kul_Lake_Kyrgyzstan.jpg/1920px-Song-Kul_Lake_Kyrgyzstan.jpg');"></div>
         </div>
     </section>
 
-    <section class="features">
-        <div class="container">
-            <h2>Why Visit Kyrgyzstan?</h2>
-            <div class="feature-cards">
-                <div class="card">
-                    <img src="https://images.unsplash.com/photo-1560807707-8cc77704d54e" alt="Jeti-Ögüz">
-                    <h3>Jeti-Ögüz</h3>
-                    <p>Marvel at the famous "Seven Bulls" rock formation.</p>
-                </div>
-                <div class="card">
-                    <img src="https://images.unsplash.com/photo-1519456034364-cd0b91355c55" alt="Tian Shan Mountains">
-                    <h3>Tian Shan Mountains</h3>
-                    <p>Adventure through stunning alpine landscapes.</p>
-                </div>
-                <div class="card">
-                    <img src="https://images.unsplash.com/photo-1560807707-8cc77704d54e" alt="Lake Issyk-Kul">
-                    <h3>Lake Issyk-Kul</h3>
-                    <p>Relax at one of the world's largest saltwater lakes.</p>
-                </div>
-            </div>
+    <section id="destinations" class="section bg-light">
+        <h2>Popular Destinations</h2>
+        <div class="destinations-grid">
+            <div class="destination" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Arslanbob_Walnut_Forest.jpg/1920px-Arslanbob_Walnut_Forest.jpg');"><h3>Arslanbob</h3></div>
+            <div class="destination" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Ala_Archa_National_Park_Kyrgyzstan_Mountains.jpg/1920px-Ala_Archa_National_Park_Kyrgyzstan_Mountains.jpg');"><h3>Ala Archa</h3></div>
+            <div class="destination" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Jeti-Oguz_rocks.jpg/1920px-Jeti-Oguz_rocks.jpg');"><h3>Jeti-Oguz</h3></div>
+            <div class="destination" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Tash_Rabat_Caravanserai_Naryn_Province_Kyrgyzstan.jpg/1920px-Tash_Rabat_Caravanserai_Naryn_Province_Kyrgyzstan.jpg');"><h3>Tash Rabat</h3></div>
         </div>
     </section>
 
-    <section class="extended-gallery">
-        <h2>More Beautiful Places in Kyrgyzstan</h2>
-        <div class="gallery-grid">
-            <img src="https://images.unsplash.com/photo-1560807707-8cc77704d54e" alt="Sary-Chelek Lake">
-            <img src="https://images.unsplash.com/photo-1519456034364-cd0b91355c55" alt="Trekking">
-            <img src="https://images.unsplash.com/photo-1586119845733-1a42413fd0d7" alt="Karakol">
-            <img src="https://images.unsplash.com/photo-1563207713-f4fdad8f9232" alt="Nomads in Kyrgyzstan">
-            <img src="https://images.unsplash.com/photo-1584196731184-ea2fe6eaa5ac" alt="Nomadic Life">
-            <img src="https://images.unsplash.com/photo-1565755156-d9e5db9a4f7e" alt="Issyk-Kul Lake">
+    <section id="activities" class="section">
+        <h2>Activities</h2>
+        <div class="activities-grid">
+          <div class="activity">Trekking</div>
+          <div class="activity">Horse Riding</div>
+          <div class="activity">Yurt Stays</div>
+          <div class="activity">Eagle Hunting</div>
         </div>
     </section>
 
-    <section class="adventure">
-        <h2>Adventure Awaits</h2>
-        <div class="gallery-grid">
-            <img src="https://images.unsplash.com/photo-1565755156-d9e5db9a4f7e" alt="Horseback Riding">
-            <img src="https://images.unsplash.com/photo-1565755156-d9e5db9a4f7e" alt="Trekking in Kyrgyzstan">
-            <img src="https://images.unsplash.com/photo-1597776893525-d11f68207fd5" alt="Hiking in Kyrgyzstan">
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Explore Kyrgyzstan. All rights reserved.</p>
-            <p><a href="#">Privacy Policy</a></p>
-        </div>
+    <footer id="contact">
+      <p>&copy; 2023 Kyrgyzstan Tourism</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
